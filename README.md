@@ -15,11 +15,12 @@ O enderenço com os parâmetros, que utilizei, esta apresentado abaixo:
 
 **Observação:**
 
-Existem três *layers* que não inseri no repositório, visto apresentarem mais que 25mb. a saber:
+Existem três *layers* que não inseri no repositório, visto apresentarem mais de 25mb. a saber:
 - inventario florestal 2020 - bacia pcj - poligonos.7z
 - uso da terra - poligonos.7z
 - área de preservação permanente - poligonos.7z
 
+<br>
 
 -----
 

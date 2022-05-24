@@ -5,9 +5,6 @@ data/output/zips/*
 !data/output/zips/inventario florestal 2020 - bacia pcj - poligonos.7z
 !data/output/zips/uso da terra - poligonos.7z
 !data/output/zips/área de preservação permanente - poligonos.7z
-#data/output/geojson/
-#data/output/gpkg/
-
 
 # IDEs
 .vscode/
