@@ -27,3 +27,11 @@ Existem três *layers* que não inseri no repositório, visto apresentarem mais 
 ### *TODO*
 
 1. ...
+
+<br>
+
+-----
+
+### Referências
+
+- https://ssd.baciaspcj.org.br/api/index.html
