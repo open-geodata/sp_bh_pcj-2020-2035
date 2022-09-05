@@ -9,7 +9,7 @@ for line in open('requirements.txt'):
     if not li.startswith('#'):
         requirements.append(line.rstrip())
 
-VERSION = (0, 0, 4)
+VERSION = (0, 0, 5)
 __version__ = '.'.join(map(str, VERSION))
 
 setup(
@@ -40,7 +40,7 @@ setup(
     #package_dir={'': 'sp_bh_pcj_2020_2035'},  # Our packages live under src but src is not a package itself
 
     # Quando são diversos módulos...
-    packages=['sp_bh_pcj_2020_2035'],
+    packages=find_packages(),
 
     # Dados
     include_package_data=True,
