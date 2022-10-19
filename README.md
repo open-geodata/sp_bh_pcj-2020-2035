@@ -1,5 +1,7 @@
 # Plano de Bacias PCJ 2020-2035
 
+- [PyPi](https://pypi.org/project/sp-bh-pcj-2020-2035/)
+- 
 
 <br>
 
@@ -17,9 +19,11 @@ O enderenço com os parâmetros, que utilizei, esta apresentado abaixo:
 
 <br>
 
-**Observação:**
+---
 
-Existem três *layers* que não inseri no repositório, visto apresentarem mais de 25mb. a saber:
+### Observação
+
+Existem três _layers_ que não inseri no repositório, visto apresentarem mais de 25mb. a saber:
 
 - inventario florestal 2020 - bacia pcj - poligonos.7z
 - uso da terra - poligonos.7z
@@ -27,8 +31,7 @@ Existem três *layers* que não inseri no repositório, visto apresentarem mais 
 
 <br>
 
------
-
+---
 
 ### Referências
 
@@ -36,9 +39,8 @@ Existem três *layers* que não inseri no repositório, visto apresentarem mais 
 
 <br>
 
------
+---
 
-
-### *TODO*
+### _TODO_
 
 1. ...

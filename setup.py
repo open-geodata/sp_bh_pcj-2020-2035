@@ -17,10 +17,10 @@ setup(
     version=__version__,
     author='Michel Metran',
     author_email='michelmetran@gmail.com',
-    description='Compartilhamento de Dados Espaciais',
+    description='Dados Espaciais da Agência das Bacias PCJ, com informações apresentadas no Plano de Bacias 2020-2035',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/open-geodata/sp_ff_apa-corumbatai',
+    url='https://github.com/open-geodata/sp_bh_pcj-2020-2035',
     keywords='python, dados espaciais, geoprocessamento',
 
     # Python and Packages
@@ -37,7 +37,7 @@ setup(
     ],
 
     # Entry
-    #package_dir={'': 'sp_bh_pcj_2020_2035'},  # Our packages live under src but src is not a package itself
+    # package_dir={'': 'sp_bh_pcj_2020_2035'},  # Our packages live under src but src is not a package itself
 
     # Quando são diversos módulos...
     packages=find_packages(),
