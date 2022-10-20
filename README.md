@@ -1,7 +1,7 @@
 # Plano de Bacias PCJ 2020-2035
 
 - [PyPi](https://pypi.org/project/sp-bh-pcj-2020-2035/)
-- 
+- [GitHub](https://github.com/open-geodata/sp_bh_pcj-2020-2035)
 
 <br>
 
@@ -43,4 +43,4 @@ Existem três _layers_ que não inseri no repositório, visto apresentarem mais 
 
 ### _TODO_
 
-1. ...
+1. Definir *layers*
