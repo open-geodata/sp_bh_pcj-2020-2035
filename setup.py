@@ -1,10 +1,15 @@
-from setuptools import setup, find_packages
+"""
+Setup
 
-with open('README.md', 'r') as f:
+"""
+
+from setuptools import find_packages, setup
+
+with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 requirements = []
-for line in open('requirements.txt'):
+for line in open('requirements.txt', encoding='utf-8'):
     li = line.strip()
     if not li.startswith('#'):
         requirements.append(line.rstrip())
