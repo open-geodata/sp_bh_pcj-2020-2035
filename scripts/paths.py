@@ -1,6 +1,5 @@
 """
-
-
+Pastas do Projeto
 """
 
 
@@ -47,10 +46,10 @@ output_path_gpkg.mkdir(exist_ok=True)
 output_path_tab = output_path / 'tab'
 output_path_tab.mkdir(exist_ok=True)
 
-#output_path_map = output_path / 'map'
+# output_path_map = output_path / 'map'
 # output_path_map.mkdir(exist_ok=True)
 
-#output_path_shp = output_path / 'shp'
+# output_path_shp = output_path / 'shp'
 # output_path_shp.mkdir(exist_ok=True)
 
 output_path_zip = output_path / 'zips'
