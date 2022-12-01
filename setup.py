@@ -1,6 +1,5 @@
 """
 Setup
-
 """
 
 from setuptools import find_packages, setup
@@ -27,11 +26,9 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/open-geodata/sp_bh_pcj-2020-2035',
     keywords='python, dados espaciais, geoprocessamento',
-
     # Python and Packages
     python_requires='>=3',
     install_requires=requirements,
-
     # Classificação
     classifiers=[
         'Programming Language :: Python :: 3',
@@ -40,13 +37,10 @@ setup(
         'Natural Language :: Portuguese',
         'Intended Audience :: Developers',
     ],
-
     # Entry
     # package_dir={'': 'sp_bh_pcj_2020_2035'},  # Our packages live under src but src is not a package itself
-
     # Quando são diversos módulos...
     packages=find_packages(),
-
     # Dados
     include_package_data=True,
     package_data={'': ['data/output/zips/*.7z']},
