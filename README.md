@@ -1,7 +1,6 @@
 # Plano de Bacias PCJ 2020-2035
 
-- [PyPi](https://pypi.org/project/sp-bh-pcj-2020-2035/)
-- [GitHub](https://github.com/open-geodata/sp_bh_pcj-2020-2035)
+[![Repo](https://img.shields.io/badge/GitHub-repo-blue?logo=github&logoColor=f5f5f5)](https://github.com/open-geodata/sp_bh_pcj-2020-2035)
 
 <br>
 
@@ -23,44 +22,10 @@ Notei também que a Agência PCJ mantem uma [API Swagger](https://ssd.baciaspcj.
 
 ---
 
-### Como Usar?
-
-O repositório faz parte do projeto [**_OpenGeodata_**](https://pypi.org/project/open-geodata), que tem por objetivo compartilhar dados espaciais por meio de _packages_ do python.
-
-```bash
-# Install
-pip3 install open-geodata --upgrade
-pip3 install sp-bh-pcj-2020-2035 --upgrade
-```
-
-<br>
-
-Uma vez instalado os pacotes, é possível listar e carregar os _datasets_ disponíveis, com os comandos abaixo.
-
-```python
-# List Datasets from package (dataframes and geodataframes)
-geo.get_dataset_from_package('sp_bh_pcj_2020_2035')
-
-# Load Dataset from package
-geo.load_dataset_from_package('sp_bh_pcj_2020_2035', dataset_name)
-```
-
-<br>
-
----
-
-### Observação
+## Observação
 
 Existem três _layers_ que não inseri no repositório, visto apresentarem mais de 25mb (limite do GitHub). a saber:
 
 - inventario florestal 2020 - bacia pcj - poligonos.7z
 - uso da terra - poligonos.7z
 - área de preservação permanente - poligonos.7z
-
-<br>
-
----
-
-### _TODO_
-
-1. Definir _layers_

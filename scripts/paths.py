@@ -3,7 +3,6 @@ Pastas do Projeto
 mar.2023
 """
 
-
 from pathlib import Path
 
 
@@ -11,10 +10,10 @@ from pathlib import Path
 project_path = Path(__file__).parents[1]
 
 # Package Path
-package_path = project_path / 'sp_bh_pcj_2020_2035'
+# package_path = project_path / 'sp_bh_pcj_2020_2035'
 
 # Data
-data_path = package_path / 'data'
+data_path = project_path / 'data'
 data_path.mkdir(exist_ok=True)
 
 # Input

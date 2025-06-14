@@ -1,16 +1,19 @@
 # Data
-sp_bh_pcj_2020_2035/data/input/
-sp_bh_pcj_2020_2035/data/output/*
-!sp_bh_pcj_2020_2035/data/output/zips
-!sp_bh_pcj_2020_2035/data/output/geo
+data/input/
+data/output/*
+!data/output/zips
+!data/output/geo
 
-sp_bh_pcj_2020_2035/data/output/zips/uso da terra - poligonos.7z
-sp_bh_pcj_2020_2035/data/output/zips/área de preservação permanente - poligonos.7z
-sp_bh_pcj_2020_2035/data/output/zips/inventario florestal 2020 - bacia pcj - poligonos.7z
+data/output/zips/uso da terra - poligonos.7z
+data/output/zips/área de preservação permanente - poligonos.7z
+data/output/zips/inventario florestal 2020 - bacia pcj - poligonos.7z
 
-sp_bh_pcj_2020_2035/data/output/geo/uso da terra - poligonos.7z
-sp_bh_pcj_2020_2035/data/output/geo/área de preservação permanente - poligonos.7z
-sp_bh_pcj_2020_2035/data/output/geo/inventario florestal 2020 - bacia pcj - poligonos.7z
+data/output/geo/uso da terra - poligonos.7z
+data/output/geo/área de preservação permanente - poligonos.7z
+data/output/geo/inventario florestal 2020 - bacia pcj - poligonos.7z
+
+# Lixo
+_lixo/
 
 # IDEs
 .vscode/
